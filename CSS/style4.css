@@ -1,0 +1,414 @@
+*{
+    margin: 0;
+    padding: 0;
+    width: 100wh;
+    font-family: "Poppins", serif;
+}
+
+.nav{
+    display: flex;
+    gap: 100px;
+background-color: rgb(140, 140, 140);
+padding: 5px;
+}
+
+#contact:hover{
+    color: rgb(77, 236, 146);
+}
+
+#sign:hover{
+    color: rgb(77, 236, 146);
+}
+
+#signup:active{
+    color: rgb(77, 236, 146);
+}
+
+select{
+    background-color: rgb(140, 140, 140);
+    border: none;
+    color: white;
+}
+#signup{
+    border: none;
+    background-color: rgb(140, 140, 140);
+    color: white;
+}
+
+.div1{
+    margin-left: 15px;
+}
+.div2{
+    margin-left: 675px;
+}
+
+.bar1{
+    display: flex;
+    gap: 30px;
+}
+
+#opo{
+    display: flex;
+    gap: 40px;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(140, 140, 140);
+}
+
+li{
+    list-style: none;
+}
+
+#pop:hover{
+    color: rgb(77, 236, 146);
+}
+
+#pop:hover .li4{
+    display: block;
+}
+
+#logo{
+    height: 50px;
+    width: 150px;
+    margin-left: 20px;
+}
+
+.list1{
+    margin-top: 20px;
+}
+
+
+
+.link2{
+    background-color: blueviolet;
+    text-align: center;
+    padding: 10px;
+}
+
+h4{
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+#offer{
+    text-decoration: underline;
+    color: white;
+}
+#bgimage{
+    width: 100%;
+}
+
+.container{
+    height: 500px;
+    width: 1263px;
+    background-image: url(https://static.nc-img.com/hosting/frontend/d79bcd5f-768c84ca857c/modules/hosting-landing/assets/images/hosting-hero-banner.4fe95a1d4d246946641f8f350f4d1fcb.svg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+h1{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 45px;
+}
+
+.head1{
+    padding: 50px;
+}
+
+.buttn2{
+    margin-top: -25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#butt1{
+    font-size: medium;
+    color: white;
+    width: 80px;
+    border: none;
+    border-radius: 4px 0 0 4px;
+    background-color: rgb(77, 236, 146);
+}
+
+#butt2{
+    font-size: medium;
+    color: white;
+    width: 80px;
+    border: none;
+    border-radius: 0 4px 4px 0;
+    background-color: blueviolet;
+}
+
+#butt2:active{
+    background-color: rgb(77, 236, 146);
+    color: white;
+
+}
+
+.search{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+#bar3{
+    height: 45px;
+    background-color: white;
+    border: none;
+    border-radius: 4px 0 0 4px;
+    width: 45%;
+}
+
+#butt3{
+
+    height: 45px;
+    background-color: white;
+    color: red;
+    border: none; 
+}
+
+#butt4{
+    height: 45px;
+    width: 70px;
+    background-color: red;
+    border-radius: 0 4px 4px 0;
+    color: white;
+    border: none;
+}
+.div5{
+    padding: 20px;
+}
+
+h2{
+    text-align: center;
+}
+
+.butt5{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#butt5{
+background-color: rgb(77, 236, 146);
+color: white;
+border: none;
+border-radius: 4px 0 0 4px;
+height: 30px;
+width: 70px;
+}
+#butt6{
+background-color: lightgray;
+color: gray;
+border: none;
+height: 30px;
+width: 70px;
+}
+
+#butt6:active{
+    background-color: rgb(77, 236, 146);
+    color: white;
+}
+.grid1{
+    display: grid;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    grid-template-columns: repeat(3, 250px);
+}
+
+.box{
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 2px 3px 3px 2px gray;
+}
+
+.boxx{
+    padding: 30px;
+    background-color: blueviolet;
+    border-radius: 8px;
+    box-shadow: 2px 3px 3px 2px gray;
+}
+
+.prof, .share, .dom, .manage, .sec{
+    background-color: lightgrey;
+    border-radius: 6px;
+    padding: 5px;
+    width: 120px;
+    color: grey;
+    font-size: x-small;
+    text-align: center;
+}
+
+.from, .insted{
+    font-size: small;
+    color: gray;
+}
+
+
+.butt7{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+#seven{
+    border: solid gray;
+    padding: 10px;
+    border-radius: 4px;
+    background-color: white;
+
+}
+#paraa9{
+    text-align: center;
+}
+
+.div11, .div12, .div13, .div14, .div15{
+    display: flex;
+    gap: 20px;
+}
+
+.para01, .para02, .para03, .para04, .para05{
+    margin-top: 70px;
+    padding: 50px;
+}
+#price{
+    height: 500px;
+    width: 1250px;
+}
+.container8{
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+#smol{
+    height: 200px;
+    width: 200px;
+}
+
+.div222{
+    display: flex;
+    gap: 10px;
+}
+
+.divv222{
+    width: 200px;
+}
+
+.bar222{
+    margin-top: 40px;
+}
+#join{
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 0 4px 4px 0;
+    height: 52px;
+    width: 80px;
+}
+
+#jjoin{
+    border: 1px solid gray;
+    border-radius: 4px 0 0 4px;
+    width: 400px;
+    height: 50px;
+}
+
+.container9{
+    background-color: rgb(72, 72, 72);
+}
+#logo1{
+    margin: 20px;
+    height: 40px;
+    width: 200px;
+}
+
+#paraa900{
+    color: white;
+}
+hr{
+    background-color: lightgray;
+}
+
+#teri{
+    color: white;
+    
+}
+.div900{
+   margin-left: 20px;
+}
+
+#youou{
+    border: none;
+    background-color: rgb(103, 102, 102) ;
+    color: lightgray;
+    border-radius: 4px 0 0 4px;
+    width: 300px;
+    height: 40px;  
+}
+
+#joinn{
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 0 4px 4px 0;
+    height: 40px;
+    width: 90px;
+}
+
+.iconn{
+    display: flex;
+    gap: 10px;
+}
+
+.twitter, .facebook, .insta, .pin{
+    padding: 10px;
+    border: 2px solid white;
+    border-radius: 80%;
+}
+
+.container9{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    margin-top: 10px;
+}
+
+.div901{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+#feet{
+    color: white;
+    font-size: small;
+    flex-direction: row;
+}
+
+#feet:hover{
+    text-decoration: underline;
+}
+
+
+.divword{
+    margin-top: -150px;
+}
+
+#domm, #secc, #guru, #hel, #hostt, #transs, #marr, #wordd{
+    color: white;
+}
+
+

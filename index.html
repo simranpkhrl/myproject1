@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./CSS/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bungee+Outline&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Yuji+Mai&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div class="main">
+      <div class="nav">
+        <div class="div1">
+              <select name="contact" id="contact">
+                <option value="opt1">CONTACT US</option>
+                <option value="opt2">Submit Ticket</option>
+                <option value="opt3">Live Chat</option>
+                <option value="opt4">Report Abuse</option>
+              </select>&nbsp;&nbsp;
+              <select name="sign" id="sign">
+                <option value="opt5">SIGN IN</option>
+                </option>
+              </select>&nbsp;&nbsp;
+
+   <a href=""><button id="signup">SIGN UP</button></a>
+        </div>
+
+
+        <div class="div2">
+    <i class="fa-solid fa-cart-shopping" style="color: #ffffff;"></i>&nbsp;&nbsp;
+
+            <select name="" id="cur">
+                <option value="opt7">USD</option>
+                <option value="opt8">U.S. Dollar</option>
+                <option value="opt9">Euro</option>
+                <option value="opt10">British Pound</option>
+                <option value="opt11">Canadian Dollars</option>
+                <option value="opt12">Australlian Dollars</option>
+                <option value="opt13">Indian Rupees</option>
+                <option value="opt14">China Yuan RMB</option>
+                <option value="">More Info</option>
+            </select>&nbsp;&nbsp;
+            <i class="fa-solid fa-magnifying-glass" style="color: #ffffff;"></i>
+        </div>
+      </div>
+
+      <div class="bar1">
+        <div class="logo"><img id="logo" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2aWV3Qm94PSIwIDAgMjU4IDQ2LjU3Ij48ZGVmcz48bGluZWFyR3JhZGllbnQgaWQ9ImEiIHgxPSI1OS45OSIgeTE9IjQ0LjE2IiB4Mj0iODAuMDEiIHkyPSIxLjIzIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSI+PHN0b3Agb2Zmc2V0PSIwIiBzdG9wLWNvbG9yPSIjZDQyMDJjIi8+PHN0b3Agb2Zmc2V0PSIwLjEiIHN0b3AtY29sb3I9IiNkYzNkMjkiIHN0b3Atb3BhY2l0eT0iMC43OSIvPjxzdG9wIG9mZnNldD0iMC4yIiBzdG9wLWNvbG9yPSIjZTQ1OTI2IiBzdG9wLW9wYWNpdHk9IjAuNTgiLz48c3RvcCBvZmZzZXQ9IjAuMzIiIHN0b3AtY29sb3I9IiNlYTcxMjMiIHN0b3Atb3BhY2l0eT0iMC40Ii8+PHN0b3Agb2Zmc2V0PSIwLjQzIiBzdG9wLWNvbG9yPSIjZjA4NTIxIiBzdG9wLW9wYWNpdHk9IjAuMjUiLz48c3RvcCBvZmZzZXQ9IjAuNTUiIHN0b3AtY29sb3I9IiNmNDk0MWYiIHN0b3Atb3BhY2l0eT0iMC4xNCIvPjxzdG9wIG9mZnNldD0iMC42OCIgc3RvcC1jb2xvcj0iI2Y3OWYxZSIgc3RvcC1vcGFjaXR5PSIwLjA2Ii8+PHN0b3Agb2Zmc2V0PSIwLjgyIiBzdG9wLWNvbG9yPSIjZjhhNTFkIiBzdG9wLW9wYWNpdHk9IjAuMDIiLz48c3RvcCBvZmZzZXQ9IjEiIHN0b3AtY29sb3I9IiNmOWE3MWQiIHN0b3Atb3BhY2l0eT0iMCIvPjwvbGluZWFyR3JhZGllbnQ+PGxpbmVhckdyYWRpZW50IGlkPSJiIiB4MT0iMTc3Ny40OCIgeTE9IjEwNDguNzYiIHgyPSIxNzk3LjUiIHkyPSIxMDA1LjgzIiBncmFkaWVudFRyYW5zZm9ybT0idHJhbnNsYXRlKDE4MDMuNSAxMDUyLjYpIHJvdGF0ZSgxODApIiB4bGluazpocmVmPSIjYSIvPjwvZGVmcz48dGl0bGU+Y24tbG9nbzwvdGl0bGU+PHBhdGggZD0iTTc3LjE3LjcxYTcuODcsNy44NywwLDAsMC02Ljg4LDQuMDVsLS4xNi4zM0w2NCwxNy4yNWwtNy44LDE1LjM3LDUuMTEsMTAuMDcuMjguNTVBOCw4LDAsMCwwLDY1LDQ2LjQ3YTguMDUsOC4wNSwwLDAsMCwzLjQxLTMuMjNsLjI4LS41NUw4NCwxMi40OGwuMzctLjczYTcuODYsNy44NiwwLDAsMC03LjE5LTExWiIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTEgLTAuNzEpIiBmaWxsPSIjZmY1MTAwIi8+PHBhdGggZD0iTTI5Ljg1LDE1LjM0bC01LjEtMTAtLjI4LS41NWE3Ljg5LDcuODksMCwwLDAtMy40LTMuMjIsNy45Miw3LjkyLDAsMCwwLTMuNCwzLjIxbC0uMjkuNTZMMi4wNSwzNS41MmwtLjM3LjcyYTcuODYsNy44NiwwLDAsMCwxNC4wNiw3bC4xNy0uMzIsNi4xNy0xMi4xNkwyOS44NywxNS40WiIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTEgLTAuNzEpIiBmaWxsPSIjZmY1MTAwIi8+PHBhdGggZD0iTTc3LjE1LjcxYTcuODYsNy44NiwwLDAsMC02Ljg3LDQuMDVsLS4xNy4zM0w2My45NCwxNy4yNSw1Ni4xMywzMi42Mmw1LjEyLDEwLjA3LjI4LjU1YTcuOTQsNy45NCwwLDAsMCwzLjQxLDMuMjMsNy45NCw3Ljk0LDAsMCwwLDMuNDEtMy4yM2wuMjktLjU1TDg0LDEyLjQ4bC4zNi0uNzNhNy44Niw3Ljg2LDAsMCwwLTcuMTktMTFaIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtMSAtMC43MSkiIGZpbGw9InVybCgjYSkiLz48cGF0aCBkPSJNOC44Niw0Ny4yOWE3Ljg2LDcuODYsMCwwLDAsNi44Ny00bC4xNy0uMzMsNi4xOC0xMi4xNiw3LjgtMTUuMzdMMjQuNzcsNS4zMWwtLjI4LS41NWE4LDgsMCwwLDAtMy40Mi0zLjIzLDgsOCwwLDAsMC0zLjQxLDMuMjNsLS4yOC41NUwyLDM1LjUybC0uMzcuNzNhNy44Niw3Ljg2LDAsMCwwLDcuMTksMTFaIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtMSAtMC43MSkiIGZpbGw9InVybCgjYikiLz48cGF0aCBkPSJNMjkuODUsMTUuMzRsLTUuMS0xMC0uMjgtLjU1YTcuOTQsNy45NCwwLDAsMC0zLjQxLTMuMjNBOC4zMSw4LjMxLDAsMCwxLDIyLjU1LDFhOC4xNiw4LjE2LDAsMCwxLDItLjI1SDM1LjIzYTcuOTIsNy45MiwwLDAsMSw2Ljg2LDRsLjI4LjU1TDU2LjE4LDMyLjY2bDUuMDksMTAsLjI4LjU1QTgsOCwwLDAsMCw2NSw0Ni40N2E4LjA1LDguMDUsMCwwLDEtMy40Ny44MUg1MC43OWE3LjkxLDcuOTEsMCwwLDEtNi44NS00bC0uMjktLjU1WiIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTEgLTAuNzEpIiBmaWxsPSIjZmY4YzQ0Ii8+PHBhdGggZD0iTTk4LDI0LjUzYS43Ni43NiwwLDAsMSwuODQtLjg0aC42YS43NS43NSwwLDAsMSwuOC44NHYxLjk0YTUuNzUsNS43NSwwLDAsMS0uMTMsMS4yMWguMDdhNy40Myw3LjQzLDAsMCwxLDYuOC00LjM5YzQuMTksMCw1LjY2LDIuMzgsNS42Niw2LjUzdjkuODlhLjc2Ljc2LDAsMCwxLS44NC44NGgtLjYzYS43NC43NCwwLDAsMS0uODEtLjg0VjMwLjQzYzAtMi42NS0uNDMtNS0zLjY4LTUtMy41OSwwLTYuNCwyLjk1LTYuNCw2Ljg4djcuNGEuNzQuNzQsMCwwLDEtLjgxLjg0aC0uNjNhLjc2Ljc2LDAsMCwxLS44NC0uODRaIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtMSAtMC43MSkiIGZpbGw9IiM2ZTZmNzEiLz48cGF0aCBkPSJNMTI0Ljg5LDMwLjIzaDF2LS41NGMwLTMuMjUtMS43OC00LjM2LTQuMTYtNC4zNmE4LDgsMCwwLDAtNC4wOSwxLjE4Ljc5Ljc5LDAsMCwxLTEuMTMtLjI3bC0uMjEtLjM0YS43Ni43NiwwLDAsMSwuMjQtMS4xNCwxMC4zNCwxMC4zNCwwLDAsMSw1LjM2LTEuNDdjNCwwLDYuMjcsMi4yNCw2LjI3LDYuNDd2MTBhLjc0Ljc0LDAsMCwxLS44MS44NGgtLjUzYS43NS43NSwwLDAsMS0uODQtLjg0VjM4LjM3YTcuMTQsNy4xNCwwLDAsMSwuMS0xLjI3SDEyNkE2LjI1LDYuMjUsMCwwLDEsMTIwLjMsNDFjLTIuODUsMC01LjctMS42Ny01LjctNC45MkMxMTQuNiwzMC41MywxMjEuNjQsMzAuMjMsMTI0Ljg5LDMwLjIzWk0xMjAuNywzOWMzLjI1LDAsNS4xNi0zLjM1LDUuMTYtNi4zdi0uOGgtLjk0Yy0yLjY1LDAtOCwuMS04LDMuODhDMTE2Ljk0LDM3LjQsMTE4LjE5LDM5LDEyMC43LDM5WiIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTEgLTAuNzEpIiBmaWxsPSIjNmU2ZjcxIi8+PHBhdGggZD0iTTEzMS4zOSwyNC41M2EuNzYuNzYsMCwwLDEsLjg0LS44NGguNmEuNzUuNzUsMCwwLDEsLjguODR2MS45NGE1Ljc1LDUuNzUsMCwwLDEtLjEzLDEuMjFoLjA3YTcuMTUsNy4xNSwwLDAsMSw2LjItNC4zOWMzLjExLDAsNC43MiwxLjQ0LDUuMTksNC4yMkgxNDVhNy4xNiw3LjE2LDAsMCwxLDYuMi00LjIyYzQuMDksMCw1LjU5LDIuMzgsNS41OSw2LjUzdjkuODlhLjc2Ljc2LDAsMCwxLS44My44NGgtLjYxYS43Ni43NiwwLDAsMS0uODQtLjg0VjMwLjM5YzAtMi43NC0uNTYtNS0zLjYxLTUtMy4zOSwwLTUuNjcsMy41NS01LjY3LDd2Ny4zYS43My43MywwLDAsMS0uOC44NGgtLjY0YS43Ni43NiwwLDAsMS0uODQtLjg0VjMwLjM5YzAtMi41NC0uMzctNS0zLjU1LTUtMy40MiwwLTUuNzYsMy42Mi01Ljc2LDd2Ny4zYS43NC43NCwwLDAsMS0uODEuODRoLS42M2EuNzYuNzYsMCwwLDEtLjg0LS44NFoiIHRyYW5zZm9ybT0idHJhbnNsYXRlKC0xIC0wLjcxKSIgZmlsbD0iIzZlNmY3MSIvPjxwYXRoIGQ9Ik0xNjcuMjgsMjMuMjljNC40OSwwLDcsMy4yNSw3LDhhLjg0Ljg0LDAsMCwxLS44OC44NEgxNjEuMzFjLjEsNC4yOSwzLjA1LDYuNzQsNi41NCw2Ljc0YTcuMTcsNy4xNywwLDAsMCw0LjQyLTEuNTUuNy43LDAsMCwxLDEuMTEuMmwuMjcuNDFhLjc4Ljc4LDAsMCwxLS4yNCwxLjFBOS41MSw5LjUxLDAsMCwxLDE2Ny43OCw0MSw4LjUxLDguNTEsMCwwLDEsMTU5LDMyLjE0QzE1OSwyNi42MSwxNjIuNzIsMjMuMjksMTY3LjI4LDIzLjI5Wk0xNzIsMzAuNDZjLS4xNC0zLjU1LTIuMjgtNS4zLTQuOC01LjNhNS44Miw1LjgyLDAsMCwwLTUuOCw1LjNaIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtMSAtMC43MSkiIGZpbGw9IiM2ZTZmNzEiLz48cGF0aCBkPSJNMTg1LjE3LDIzLjI5YTguODQsOC44NCwwLDAsMSw1LjYsMS45MS43Mi43MiwwLDAsMSwuMSwxLjE0bC0uMjMuMzdjLS4zLjQ3LS42Ny40Ny0xLjE0LjE3YTcsNywwLDAsMC00LjI2LTEuNTUsNi41LDYuNSwwLDAsMC02LjU3LDYuODEsNi41LDYuNSwwLDAsMCw2LjYsNi43N0E3LjM1LDcuMzUsMCwwLDAsMTkwLDM3LjEzYS42Ny42NywwLDAsMSwxLjExLjJsLjIzLjM0YS44LjgsMCwwLDEtLjIsMS4xMyw5LjMyLDkuMzIsMCwwLDEtNiwyLjE1LDguNTMsOC41MywwLDAsMS04Ljg0LTguODFBOC41OSw4LjU5LDAsMCwxLDE4NS4xNywyMy4yOVoiIHRyYW5zZm9ybT0idHJhbnNsYXRlKC0xIC0wLjcxKSIgZmlsbD0iIzZlNmY3MSIvPjxwYXRoIGQ9Ik0xOTMuNjUsMTcuODNhLjczLjczLDAsMCwxLC44LS44NGguNjRhLjc2Ljc2LDAsMCwxLC44NC44NHY4LjQxYTcuMTgsNy4xOCwwLDAsMS0uMTMsMS4zN2guMDZhNy40Myw3LjQzLDAsMCwxLDYuNzQtNC4zMmM0LjE5LDAsNS42NiwyLjM4LDUuNjYsNi41M3Y5Ljg5YzAsLjU0LS4yNi44NC0uOC44NGgtLjY0YS43Ni43NiwwLDAsMS0uODQtLjg0VjMwLjQzYzAtMi42NS0uNC01LTMuNjgtNS0zLjU1LDAtNi4zNywyLjkyLTYuMzcsN3Y3LjNhLjc2Ljc2LDAsMCwxLS44NC44NGgtLjY0YS43My43MywwLDAsMS0uOC0uODRaIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtMSAtMC43MSkiIGZpbGw9IiM2ZTZmNzEiLz48cGF0aCBkPSJNMjE4Ljc1LDIzLjI5YzQuNDksMCw3LDMuMjUsNyw4YS44NC44NCwwLDAsMS0uODcuODRIMjEyLjc5Yy4xLDQuMjksMy4wNSw2Ljc0LDYuNTMsNi43NGE3LjIsNy4yLDAsMCwwLDQuNDMtMS41NS42OS42OSwwLDAsMSwxLjEuMmwuMjcuNDFhLjc4Ljc4LDAsMCwxLS4yMywxLjFBOS41Nyw5LjU3LDAsMCwxLDIxOS4yNiw0MWE4LjUyLDguNTIsMCwwLDEtOC44Mi04LjgxQzIxMC40NCwyNi42MSwyMTQuMTksMjMuMjksMjE4Ljc1LDIzLjI5Wm00LjczLDcuMTdjLS4xMy0zLjU1LTIuMjgtNS4zLTQuOC01LjNhNS44LDUuOCwwLDAsMC01Ljc5LDUuM1oiIHRyYW5zZm9ybT0idHJhbnNsYXRlKC0xIC0wLjcxKSIgZmlsbD0iIzZlNmY3MSIvPjxwYXRoIGQ9Ik0yMzcuMTIsMzAuMjNoMXYtLjU0YzAtMy4yNS0xLjc4LTQuMzYtNC4xNi00LjM2YTcuODUsNy44NSwwLDAsMC00LjA4LDEuMTguOC44LDAsMCwxLTEuMTQtLjI3bC0uMi0uMzRhLjc2Ljc2LDAsMCwxLC4yMy0xLjE0LDEwLjM0LDEwLjM0LDAsMCwxLDUuMzYtMS40N2M0LDAsNi4yNywyLjI0LDYuMjcsNi40N3YxMGEuNzQuNzQsMCwwLDEtLjgxLjg0SDIzOWEuNzUuNzUsMCwwLDEtLjg0LS44NFYzOC4zN2E3LjE0LDcuMTQsMCwwLDEsLjEtMS4yN2gtLjA3QTYuMjUsNi4yNSwwLDAsMSwyMzIuNTMsNDFjLTIuODUsMC01LjctMS42Ny01LjctNC45MkMyMjYuODMsMzAuNTMsMjMzLjg3LDMwLjIzLDIzNy4xMiwzMC4yM1pNMjMyLjkzLDM5YzMuMjUsMCw1LjE2LTMuMzUsNS4xNi02LjN2LS44aC0uOTRjLTIuNjUsMC04LC4xLTgsMy44OEMyMjkuMTcsMzcuNCwyMzAuNDEsMzksMjMyLjkzLDM5WiIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTEgLTAuNzEpIiBmaWxsPSIjNmU2ZjcxIi8+PHBhdGggZD0iTTI0My42NSwyNC41M2EuNzQuNzQsMCwwLDEsLjgxLS44NEgyNDVhLjcyLjcyLDAsMCwxLC44MS43N3YxLjIxYTYsNiwwLDAsMS0uMSwxLjE0aC4wNmE2LjI4LDYuMjgsMCwwLDEsNS45LTMuNTJjNC41MywwLDcuMzQsMy42Miw3LjM0LDguODVTMjU1LjgyLDQxLDI1MS40Myw0MWE2LjEzLDYuMTMsMCwwLDEtNS41Ny0zLjQyaC0uMDZhNy44NCw3Ljg0LDAsMCwxLC4xMywxLjQ4djcuNGEuNzYuNzYsMCwwLDEtLjg0Ljg0aC0uNjNhLjc0Ljc0LDAsMCwxLS44MS0uODRabTcuNTQsMTQuMzhjMywwLDUuNDctMi40OCw1LjQ3LTYuNzcsMC00LjEzLTIuMjItNi43Ny01LjMzLTYuNzctMi44MiwwLTUuNDcsMi01LjQ3LDYuOEMyNDUuODYsMzUuNTUsMjQ3Ljc0LDM4LjkxLDI1MS4xOSwzOC45MVoiIHRyYW5zZm9ybT0idHJhbnNsYXRlKC0xIC0wLjcxKSIgZmlsbD0iIzZlNmY3MSIvPjwvc3ZnPgo=" alt=""></div>
+        <div class="list1">
+            <ul id="opo">
+                <li id="ooo"><a href="./CSS/index3.html" id="pop">Domains</a></li>
+                <li id="ooo"><a href="./CSS/index4.html" id="pop">Hosting</a></li>
+                <li id="ooo"><a href="" id="pop">WordPress</a></li>
+                <li id="ooo"><a href="" id="pop">Email</a></li>
+                <li id="ooo"><a href="" id="pop">Marketing Tools</a></li>
+                <li id="ooo"><a href="" id="pop">Security</a></li>
+                <li id="ooo"><a href="" id="pop">Transfer to Us</a></li>
+                <li id="ooo"><a href="" id="pop">Help Center</a></li>
+                <li id="ooo"><a href="" id="pop">Account</a></li>
+            </ul>
+        </div>
+      </div>
+
+      <div class="link2">
+        <a id="offer" href=""><h4>Get 2025 off to a flying start with up tp 98% off in our New Year Sale</h4></a>
+    </div>
+
+    <div class="container">
+        <div class="image1">
+<div class="head1"><h1  id="headd1">Make More online, for less</h1></div>
+<div class="buttn2"><button id="butt1">Register</button>
+<a href="./CSS/index2.html"><button id="butt2">Transfer</button></a>
+</div>
+
+<div class="search">
+  <label for="search"></label>
+  <input type="search" name="" placeholder=" &nbsp;Register a domain name to start" id="bar3"> 
+  <div class="buttn3"><a href=""><button id="butt3">&nbsp;Beast Mode&nbsp;</button></a><a href=""><button id="butt4">Search</button></a>
+  </div>
+</div>
+
+<div class="link4">
+  <h4 id="hh4"><a id="only1" href="">.COM</a>&nbsp;only $6.49*</h4> <h4 id="hh4"><a id="only2" href="">.ORG</a>&nbsp;only $6.98*</h4>
+</div>
+ </div>
+    </div>
+
+    <div class="div5">
+      <div class="head2"><h2>Buy a domain and everything else you need</h2></div>
+  <div class="butt5">
+    <a id="six" href=""><button id="butt5">Promos</button></a>
+    <a id="six" href=""><button id="butt6">Domains</button></a>
+    <a id="six" href=""><button id="butt7">WordPress</button></a>
+    <a id="six" href=""><button id="butt8">Hosting</button></a>
+    <a id="six" href=""><button id="butt9">Security</button></a>
+    <a id="six" href=""><button id="butt10">Apps</button></a>
+  </div>
+
+  <div class="head4">
+    <h3 id="headd4">Explore current top details</h3></div>
+  <div class="para1"><p id="paraa1">Check out our best deals across our product range, and get what your website needs</p></div>
+
+  <div class="grid1">
+    <div class="boxx"><h4>NEW YEAR SALE:Start something great in 2025 with upto 98% off the tools you need to do it.</h4></div>
+    <div class="box"><div class="priv"><i class="fa-solid fa-envelope" style="color: #8a8e93;"></i>&nbsp;<b>Private Emails</b></div>
+  <div class="prof"><p>PROFESSIONAL EMAILS</p></div> <br> <br> <br>
+<div class="from"><p>From</p></div>
+<div class="money"><b>$11.88/yr</b></div>
+<div class="insted"><p>Instead of $14.88/yr</p></div>
+</div>
+    <div class="box"><div class="plans"><i class="fa-solid fa-scroll" style="color: #a0a0a2;"></i>&nbsp;<b>All Plans</b></div>
+    <div class="share"><p>SHARED HOSTING</p></div> <br> <br> <br>
+    <div class="from"><p>From</p></div>
+    <div class="money"><b>$1.58/mo</b></div>
+    <div class="insted"><p>Instead of $4.48/mo</p></div></div>
+    <div class="box"><div class="com"><b>.COM</b></div>
+    <div class="dom"><p>DOMAINS</p></div> <br> <br> <br>
+    <div class="from"><p>From</p></div>
+    <div class="money"><b>$10.48/yr</b></div>
+    <div class="insted"><p>Instead of $14.98/yr</p></div></div>
+    <div class="box"><div class="easy"><i class="fa-brands fa-octopus-deploy" style="color: #9ea0a3;"></i>&nbsp;<b>EasyWP Turbo</b></div>
+    <div class="manage"><p>MANAGED WORDPRESS</p></div> <br> <br> <br>
+<div class="money"><b>$2.63/mo</b></div>
+<div class="insted"><p>Instead of $12.88/mo</p></div>
+  </div>
+    <div class="box"><div class="fast"><i class="fa-solid fa-fan" style="color: #949494;"></i>&nbsp;<b>FastVPN</b></div>
+    <div class="sec"><p>Security</p></div> <br> <br> <br>
+    <div class="from"><p>From</p></div>
+    <div class="money"><b>$0.66/mo</b></div>
+    <div class="insted"><p>Instead of $7.88/mo</p></div></div>
+  </div>
+  <div class="butt7"><a href=""><button id="seven"><i class="fa-solid fa-circle-plus" style="color: #8a8a8a;"></i><b>&nbsp;View More</b></button></a></div>
+  </div>
+
+  <div class="container2">
+    <div class="head5"><h2 id="headd5">Rated 4.7 out of 5 by 2M+ customers</h2></div>
+    <div class="image2"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMzAiIGhlaWdodD0iNDAiIHZpZXdCb3g9IjAgMCAzMTQuNiA5Ni40Ij48c3R5bGU+LnN0MHtmaWxsLXJ1bGU6ZXZlbm9kZDtjbGlwLXJ1bGU6ZXZlbm9kZDtmaWxsOiMwMDI2M2F9LnN0MXtmaWxsOiNmODhkMmJ9LnN0MntmaWxsOiMwMDI2M2F9PC9zdHlsZT48ZyBpZD0iSXNvbGF0aW9uX01vZGUiPjxnIGlkPSJMYXllcl8xXzFfIj48cGF0aCBjbGFzcz0ic3QwIiBkPSJNMTUuOCA3OS4yYzQuMiAwIDcuNiAzLjQgNy42IDcuNnMtMy40IDcuNi03LjYgNy42Yy00LjIgMC03LjYtMy40LTcuNi03LjYgMC00LjIgMy40LTcuNiA3LjYtNy42ek00NC42IDc5LjJjNC4yIDAgNy42IDMuNCA3LjYgNy42cy0zLjQgNy42LTcuNiA3LjZjLTQuMiAwLTcuNi0zLjQtNy42LTcuNi0uMS00LjIgMy40LTcuNiA3LjYtNy42ek0zNC44IDc1LjFoMTguN0M1Ny42IDQ3LjYgNjkuMSAyMi41IDg2IDEuOSA2Mi4yIDIwLjQgNDQuMSA0NS44IDM0LjggNzUuMXpNMTMuMiA3NS4xaDEyLjNjLTQuNi0yOC40LTEzLTQ1LjItMTMtNDUuMmgxMC45YzIuMyAwIDIuOCAxLjggMy40IDMgLjkgMiAzLjQgOC43IDUuMSAxMy41IDYuMS05LjEgMTMuMy0xNy42IDIxLjItMjUuMWgtNDVDMy41IDIxLjMtLjEgMjUuNC41IDMwbDUgMzguNWMuNiAzLjcgMy44IDYuNiA3LjcgNi42eiIvPjxwYXRoIGNsYXNzPSJzdDEiIGQ9Ik0xNDggMjguOGg5LjV2M0gxNDh6TTI1Mi4zIDI0LjNsLjUtMy4xaC05LjRzLTQtLjEtNC40IDQuMWMtLjMgMy42LTEuNiAxMC4yLTEuNiAxMC4ycy0uNiAzLjEgMi45IDMuMmg5LjZsLjUtMy4yaC04LjJjLS42IDAtLjktLjUtLjktLjlsLjUtMy4xaDguMWwuNS0zLjJoLThsLjUtMy4zYy4xLS4zLjQtLjggMS4xLS44bDguMy4xek0yNzEuMSAyMS4yaC05LjJsLTIuOCAxNy42aDMuN2wxLjEtNi42aDMuM2wyLjIgNi42aDQuM2wtMi43LTdjMi44LS4xIDQuMi0zLjcgNC4yLTYuMnYtLjdjLjEtMi0xLjUtMy43LTQuMS0zLjd6bTAgNi42Yy0uMy45LTEgMS40LTEuNyAxLjRoLTQuOWwuOC01SDI3MC4yYzEuNCAwIDEuNCAxLjYgMS4zIDIuMmwtLjQgMS40eiIvPjxwYXRoIGNsYXNzPSJzdDEiIGQ9Ik0xNDQuMiAzOC44bDIuOC0xNy42aDMuOEwxNDggMzguOHpNMTU0LjggMzguOGwyLjgtMTcuNmgzLjhsLTIuOCAxNy42ek0xNjkuNCAyOC4xbC0uNiAzLjZjLS40IDIuNS0uNCA3IDUuMSA3LjFoMy41YzMuNiAwIDYuNC0yLjUgNy4zLTYuOWwuNS0zLjRjLjctNC45LTEuMS02LjgtMy45LTcuMy0uOS0uMi0yLS4yLTMuOC0uMi00LjMtLjEtNyAyLjEtOC4xIDcuMXptMy4yIDMuOGwuNi0zLjVjLjYtMy4xIDItNC4yIDMuOC00LjJoMi4yYzEuNyAwIDIuNiAxLjEgMi40IDQuMS0uMSAxLjMtLjYgMy43LS42IDMuNy0uNSAyLjYtMi4xIDMuOC00IDMuOGgtMS42Yy0yLjEgMC0zLjMtMS4zLTIuOC0zLjl6TTIwNC44IDIxLjJoLTkuNGwtMi44IDE3LjZoMy44bDEuMS02LjUgNi4xLS4xYzIuOC0uMSA1LTIuNyA1LjItNi4zdi0xLjJjLS4xLTItMS43LTMuNS00LTMuNXptMCA1LjRsLS4yLjljLS4yIDEuMi0xLjIgMS44LTIgMS44aC00LjdsLjgtNS4yaDQuN2MxLjUgMCAxLjYgMS45IDEuNCAyLjV6TTIyNy4yIDIxLjJoLTkuNEwyMTUgMzguOGgzLjhsMS4xLTYuNSA2LjEtLjFjMi44LS4xIDUtMi43IDUuMi02LjN2LTEuMmMwLTItMS42LTMuNS00LTMuNXptLjEgNS40bC0uMi45Yy0uMiAxLjItMS4yIDEuOC0yIDEuOGgtNC43bC44LTUuMmg0LjdjMS41IDAgMS41IDEuOSAxLjQgMi41ek0xMjguMyAyNC4zaDcuOWwuNC0zLjFoLTguNWMtMi44IDAtNC44IDEuOC01LjMgNC4xbC0uMiAxLjgtLjEuOGMtLjIgMS45LjkgMy43IDQuMyAzLjdsMy44LjFjLjUgMCAuOS40LjkuOWwtLjIgMS43YzAgLjctLjggMS40LTEuNyAxLjRsLTUuNi4xaC0yLjNsLS41IDMuMWgzbDUuNi0uMWMyLjggMCA0LjktMS45IDUuMy00LjVsLjMtMi41YzAtMS45LTEuMS0zLjQtMy41LTMuNWgtNC41cy0xLjItLjEtMS4yLTFsLjItMS42Yy41LS45IDEuMi0xLjQgMS45LTEuNHoiLz48Zz48cGF0aCBjbGFzcz0ic3QyIiBkPSJNMzEzLjYgMzkuMWMwIDIuMi0xLjcgMy45LTQgMy45LTIuMiAwLTQtMS43LTQtMy45IDAtMi4xIDEuOC0zLjkgNC0zLjkgMi4zIDAgNCAxLjggNCAzLjl6bS03IDBjMCAxLjcgMS4zIDMuMSAzIDMuMXMyLjktMS40IDIuOS0zLjFjMC0xLjctMS4yLTMuMS0zLTMuMS0xLjYgMC0yLjkgMS40LTIuOSAzLjF6bTIuNCAyaC0uOXYtMy45Yy40LS4xLjgtLjEgMS41LS4xczEuMS4xIDEuMy4zYy4yLjIuNC41LjQuOCAwIC40LS4zLjgtLjguOS40LjEuNi40LjcuOS4xLjYuMi44LjMgMWgtMWMtLjEtLjEtLjItLjUtLjMtLjktLjEtLjQtLjMtLjYtLjgtLjZoLS40djEuNnptMC0yLjJoLjRjLjUgMCAuOS0uMi45LS42IDAtLjQtLjMtLjYtLjgtLjZoLS41djEuMnoiLz48L2c+PC9nPjxwYXRoIGNsYXNzPSJzdDIiIGQ9Ik05Ni40IDY0LjFsMS40IDExaDcuMWMtLjEtNC4zLTQuMi0zOS4zLTQuMi0zOS4zaC0zLjZjLTQuMiAwLTcuNyAxLjMtMTEuMyA3LjQtOCAxMy41LTE2LjMgMjguMi0xOC40IDMxLjloNy4yYzEuMy0yLjMgMS40LTMgMi40LTQuNiAzLTQuOCA2LjgtNi40IDExLjYtNi40aDcuOHptLTIuMi0yMS40TDk2IDYwSDgyLjlzOS4yLTE0LjkgOS44LTE2Yy42LTEuMSAxLjUtMS4zIDEuNS0xLjN6TTI0NC4xIDQ1LjhsLjEtLjFoLTcuNmwtMTAuOCAyMi41LTIuOC0yMi41aC03LjNjLjUgMyA0LjUgMjkuNCA0LjUgMjkuNEgyMjguOHMxMy40LTI1LjggMTUuMy0yOS4zek0zMDAuOSAzNS43SDI5NGwtMS41IDEwaC03LjNjLTguMyAwLTExLjggMy42LTEzLjQgMTMuNy0xIDYtLjMgMTAuNCAxLjkgMTIuOSAxLjYgMS44IDQgMi44IDcuMiAyLjhoMTMuOGw2LjItMzkuNHpNMjg4LjcgNzBoLTUuOWMtMS43IDAtMi44LS40LTMuNS0xLjMtMS4yLTEuNC0xLjQtNC0uNi04LjUgMS02LjUgMy4xLTkuNSA2LjgtOS41aDYuNEwyODguNyA3MHpNMjY3LjcgNDhjLTEuMy0xLjYtMy42LTIuNC02LjQtMi40aC01LjljLTcuNy4zLTEwLjkgMy45LTEyLjUgMTMuNy0xIDYtLjMgMTAuNCAxLjkgMTIuOSAxLjYgMS44IDQgMi44IDcuMiAyLjhoMTIuOWwxLTUuMWgtMTJjLTEuNyAwLTIuOC0uNC0zLjUtMS4zLS45LTEtMS4yLTItMS00LjZoMTIuOWwuOC0uMWMxLjQtLjIgNS0xLjQgNi4xLTguNS40LTMuMiAwLTUuNy0xLjUtNy40em0tNS42IDcuN2MtLjMgMi41LTEuMiA0LjItNC4xIDQuMmgtOC4zYy4xLS42LjQtMS43LjUtMi4yIDEuMS00LjcgMy4xLTYuOSA2LjMtNi45aDMuNGMuOC4xIDEuNC4zIDEuOC43LjYuNi42IDIuNS40IDQuMnpNMTg5LjEgNDUuNGMtLjUtLjEtMS4xLS4xLTEuOC0uMS0xLjUgMC0yLjkuMi00LjIuNy0xLjMuNC0yLjMuOS0zLjEgMS40LS43LjQtMS43IDEtMi44IDEuOGwuNi0zLjZIMTcxbC00LjYgMjkuNmg2LjlMMTc2IDU4Yy40LTIuNSAyLjEtNC43IDQuNi01LjUgMS4zLS40IDIuNy0uNiA0LjQtLjcuOS0yLjggMi4zLTQuOSA0LjEtNi40ek0yMTMuMSA2MS4zYzEtNi4yLjUtMTAuNS0xLjYtMTIuOS0yLjItMi42LTYtMy05LjUtMy04LjQgMC0xMy43IDEtMTUuOSAxNC40LTEgNi0uNSAxMC4xIDEuNSAxMi41IDIuMiAyLjYgNi4xIDIuOSA5LjcgMi45IDguMiAwIDEzLjgtLjkgMTUuOC0xMy45em0tMTkuNiA3LjJjLTEuMS0xLjItMS4yLTMuMy0uNC04IDEuNC04LjQgMy05LjcgOC4xLTkuNyAyLjEgMCAzLjcuMiA0LjYgMS4zIDEuMSAxLjMgMS4zIDMuNy41IDguNS0xLjIgNy4yLTIuOSA5LjItOC4xIDkuMi0yLjYuMS0zLjktLjMtNC43LTEuM3pNMTMzLjQgNDguNGMtMS42LTEuOC00LTIuOC03LjItMi44aC0xMy44TDEwNi4zIDg1aDYuOWwxLjUtMTBoNy4zYzguMyAwIDExLjgtMy42IDEzLjQtMTMuNy45LTYgLjItMTAuMy0yLTEyLjl6bS00LjkgMTJjLTEgNi41LTMuMSA5LjUtNi44IDkuNWgtNi40bDMuMS0xOS4yaDUuOWMxLjcgMCAyLjguNCAzLjUgMS4zIDEuMiAxLjMgMS40IDQgLjcgOC40ek0xNjIuNiA0OC40Yy0xLjYtMS44LTQtMi44LTcuMi0yLjhoLTEzLjhMMTM1LjQgODVoNi45bDEuNS0xMGg3LjNjOC4zIDAgMTEuOC0zLjYgMTMuNC0xMy43LjktNiAuMy0xMC4zLTEuOS0xMi45em0tNSAxMmMtMSA2LjUtMy4xIDkuNS02LjggOS41aC02LjRsMy4xLTE5LjJoNS45YzEuNyAwIDIuOC40IDMuNSAxLjMgMS4yIDEuMyAxLjQgNCAuNyA4LjR6Ii8+PC9nPjwvc3ZnPgo="  id="imagee2" alt=""></div>
+    <div class="para5"><p id="paraa5">Real customer rating and reviews at shopper approved. <a href="" id="read">Read Them all</a></p></div>
+  </div>
+
+  <div class="container3">
+    <div class="head8"><h3>Trusted the world over</h3></div> <br> <br>
+    <div class="imagees">
+      <img src="https://static.nc-img.com/pp/cms/home-reskinned/images/figma-logo.4f051441da007e3f865816e7766648a8.svg" alt=""> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <img src="https://static.nc-img.com/pp/cms/home-reskinned/images/imgur-logo.2686e7eefb16d4f1e46b204b578d74f4.svg" alt="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <img src="https://static.nc-img.com/pp/cms/home-reskinned/images/privacy-logo.9f51d48b9380d84ac656873c33cd53a1.svg" alt="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <img src="https://static.nc-img.com/pp/cms/home-reskinned/images/buffer-logo.5c629ca8a4925b53d5798fff32fd6b24.svg" alt="">
+    </div>
+    <div class="figma">
+      <h3 id="black">"Namecheap has been a trusted partner for our critical domain names. As we continue to grow, we know we can always count on them."</h3> <br><br><br><br>
+    <div class="fig"><b>Figma</b></div>
+  <div class="co"><p>Dylan Field, Co-Founder and CEO, Figma</p></div></div>
+  </div>
+
+  <div class="container4">
+    <div class="head9"><h2 id="headd9">Every step to online success</h2></div>
+    <div class="para9"><p id="paraa9">Domain name registeration is only the begining</p></div>
+  </div>
+
+  <div class="container5">
+    <div class="div11">
+      <img src="https://static.nc-img.com/pp/cms/home-reskinned/images/buy-a-domain.687c1ba7ac761396bc11e0151ef51c3a.svg" alt="">
+      <div class="para01"><b>Buy a domain</b><br><p>Register a domain name and create your online identity. Use our advanced <a id="read" href="">domain name generator</a> to get your ideal choice right away. Already have a domain registered somewhere else? No problem — <a href="" id="read">domain transfers are free and easy</a>. <br>
+<br>
+        <a href="" id="read">Discover all domain extensions →</a></p></div>
+    </div>
+    <div class="div12">
+      <div class="para02"><b>Find the right hosting for your domain</b><p>Whether you want speed, simplicity, space, or super-power, we've got you covered. Choose from shared, VPS, dedicated, and Managed WordPress options. Or, try <a id="read" href=""> Site Maker </a> to get a personal site online.
+<br><br>
+       <a id="read" href=""> Choose a hosting package → </a> </p></div>
+       <img src="https://static.nc-img.com/pp/cms/home-reskinned/images/find-a-hosting.eeb44f3d099d4a05b9a9f105efc12d46.svg" alt="">
+    </div>
+    <div class="div13">
+      <img src="https://static.nc-img.com/pp/cms/home-reskinned/images/add-email.29cf403e4bf786cddb6c9da52bc11548.svg" alt="">
+      <div class="para03"><b>Add professional email</b><p>Impress your customers by sending emails from @yourwebsite.com. Get secure, reliable Private Email connected to your domain, complete with business tools and calendar from just $11.88 a year.
+<br><br>
+        <a id="read" href="">See email plans → </a></p></div>
+    </div>
+
+    <div class="div14">
+      <div class="para04"><b>Security for you and your customers</b><p>Take the stress out of security with low-cost SSL Certificates, PremiumDNS, VPN and more. Plus a range of features — like <a id="read" href="">2-Factor Authentication</a> — included completely free with your account.
+<br><br>
+        <a id="read" href="">Secure yourself → </a></p></div>
+        <img src="https://static.nc-img.com/pp/cms/home-reskinned/images/security.2216317a5494176d8008d0a518180ac5.svg" alt="">
+    </div>
+
+    <div class="div15">
+      <img src="https://static.nc-img.com/pp/cms/home-reskinned/images/boost-performance.43950268dc2c215d552d4233f51593cc.svg" alt="">
+      <div class="para05"><b>Boost performance with our apps</b><p>Power-up your business with our range of apps. From <a id="read" href="">Logo Maker </a> and our <a id="read" href=""> Visual Suite </a> to Supersonic CDN, we have the tools ready-and-waiting to aid your business’ performance.
+<br><br>
+        <a id="read" href="">Select apps → </a></p></div>
+    </div>
+  </div>
+
+  <div class="container6">
+    <div class="div17"><h3>Why Namecheap</h3>
+    <p id="para17">Simple-it's all about you</p></div>
+
+    <div class="image17">
+      <img src="./IMAGES/Screenshot (50).png" id="chick">
+    <div class="para017"><b>Privacy and security</b><p>Your <a id="read" href=""> website security </a> and privacy comes first at Namecheap, and we will always support the rights of individuals and consumers online. It’s our mission to keep the Internet open, free, and safe for everyone.</p></div>
+    </div>
+
+    <div class="image18"><div class="para018"><b>Your business online</b><p>Boost your business with industry-premium products and services, at prices that won’t break your budget. If it doesn’t provide you with a better Internet experience, we simply don’t offer it.</p></div>
+  <img src="./IMAGES/Screenshot (51).png" alt="" id="chick"></div>
+
+  <div class="image19"><img src="./IMAGES/Screenshot (52).png" id="chick" alt="">
+  <div class="para019"><b>Custimer service</b><p>You’re covered by a <a id="read" href=""> Support Team </a> that’s renowned for being one of the most knowledgeable, friendly, and professional in the business. Real people are ready to assist you with any issue, any time, 24/7.</p></div>
+  </div>
+  </div>
+
+  <div class="container7">
+    <div class="div21"><h2>Unleash your full potential</h2><br><p id="ppp">Extra support and knowledge is waiting for you</p></div>
+  
+  <div class="minicon">
+    <div class="one"><img src="https://static.nc-img.com/pp/cms/home-reskinned/images/card-support.76a219827154969af31af4f9f21aee0d.svg" alt=""> <br><br>
+    <b>First site support</b><p>Learn while you build as we talk you through everything from your first domain onwards. Our <a id="read" href=""> Guru Guides </a> have the answers.</p>
+ <br><a href=""> <button id="buttmini">Get started</button></a></div>
+
+
+    <div class="two">
+<img src="https://static.nc-img.com/pp/cms/home-reskinned/images/card-discover.df9d05a5e476dc82254d0959cf377f06.svg" alt=""> <br><br>
+<b>Discover our blog</b><p>See the latest industry news, get inspirational business tips, find our latest promos, and much more in our extensive blog.</p>
+<br><a href=""><button id="buttmini">Get Learning</button></a>
+    </div>
+    <div class="three">
+      <img src="https://static.nc-img.com/pp/cms/home-reskinned/images/card-transfer.08e78f9b17ee994aeb67734f279cfb68.svg" alt=""> <br><br>
+      <b>Transfer to more</b><p>Get extra support and savings by transferring your domain to us. Plus, carry over any time your domain has left.</p>
+      <br><a href=""> <button id="buttmini">Get Learning</button></a>
+    </div>
+  </div>
+  </div>
+
+  <div class="container8">
+    <img id="smol" src="https://static.nc-img.com/pp/home-page/client/assets/images/subscription-section-img.4217afdc.svg" alt="">
+    <div class="div222">
+      <div class="divv222"><h3>Stay inspired</h3><br><p>Get all the latest offers, articles, and industry news straight to your mailbox every month.</p></div>
+      <div class="bar222"><input type="text" placeholder=" &nbsp;you@yours.com" id="jjoin"><button id="join">Join</button></div>
+
+    </div>
+  </div>
+
+
+  <div class="container9">
+  <div class="div900">
+    <div class="lolo">
+      <img id="logo1" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAbYAAABWCAMAAACU5EN0AAAAllBMVEUAAAD6+Pb6+Pb6+Pb3Xhf6+Pb6+Pb6+Pb6+Pb6+Pb6+Pb6+Pb6+Pb6+Pb5Ugn7bCH6+Pb6+Pb8VAT/ezP8UwT4Wwz2WA76Ugb/i0P/i0P/i0PlSSb/i0P/i0P/i0P9TwD8VwT9UwH7XQj9UgHwXBfoUCDiRST5Xwr8WgXzXxTtWBr4YA32YA/cNCn/i0P6+Pb1YBH1cDZ/lLgEAAAAH3RSTlMAINifEGDFgEDrMFAQcGAgso/pN8GAoULoXaLjxYJweGIb7wAACh5JREFUeF7s2elu2zAQhdGLgj9SIKAAWaK8tNW+eE36/i9X0TILRybthMMiSDHnFS6+kQDiy2CMMcYYW62XJ7v1SsCbkEl+lkiExrLN6Z6f8CPS/EqKkJhQx+Px9+mO5QIeFnH+RrxAMExsjprezc1jN5nfCLwbrxZ+t0U+E3I3prque8duS4EPEblNjCBY1p0dR13I/xKVW6UIgW26i4dnMsIHRLmDAB2TbdsZD3Jbk2IzJOjYph11RrDcorrO7RKEwLFNukmo3FQ9yq1Axja71giZW1RP/snHjcmddrVcS87NxOYcLgMRi8+rmd26NlBui/pK6NmYbHZGa4TILanfCHskWdw003BXzQXILSvLsnYuBxqWNmez3ei5JWXpHK5OQMJEc7H7i5ybic09nAQJS7fb7c1yxNxMbO7hBCiY2GqW4SgPOCY213J5ChKWvm4nzXy50z0/8EBSFHeGE6Bg4nW0vZhWM7uRcssKzTUcOTaObTJLjpxboke7WS5MbEwcDgfrcLuGlFtWXJS24SRIWHrQHMU1/rnFhVHeFheDiGPb793DqV++ucliprwmQcLSveYaLsLSM7d4KDR7cV84tuenp2d8umhvzIbTGgWs/HKTw6iY+w9i+/7y8g2fTvW9ZTizXAR45hYP2m1xxRePDS8jfLao1/aa5VYqwDM3ORjz3vRwkmcjx3ZnuAjwy83EZk+OGBvPFlVV7x5OAZ65yWrQHMlJno1GVaPemA8XAY9zW8Iirir3cDF4NmJsk96anALek9vKFpvmGi7j2eixuYeLAL/chI7NOVwCEp4tGqrKPZwCPHNLK801XMaz0ahhZFluqk0AfrmJfuRajhobz7b4w8q9drlpA2EARsgSCMQa0tjp9SRpstvupqe0///P1bJArxlpgCrMt91Zg6yHV4TLiVNj4S5FkRm3i2Nj4TbDZsPNo6br9a2qlgAINei40dTzBpS8NftOTA38qmoCANmW7EQKoKmk7zYJNst/tOmkaw3K7hq6qKduJ9Hk6r0zY+Fc2LLidvrm0Di4zbC14zjeOdpynMs8+NiuHFFVaAy3n6zry9CUzn/5K72Eq/VIWyhbGXSNemTDRrEjlDJoycXBkx565TcpJGkm64MDY+Fc2PLidvnm3Qjc3rBVHsP242PJud2NyyrnaDqA2qmTJvnVWMPFAi0xV9gTjh2wKToKJO1ugwrRadeGHm2x4cO2AnciyL9uxw0Pghg4hG2TjX73sfPdJojomWbBppYQOkwwSoT5nTh0VU1+Emi2x54CK9gkJUDUJpO+GqYPKnboFmyzGqphHz7zcJfoRLgZN4TNVxLuwz42a5yIVMKdDbygT5W4YyjhoEQ1ZQRsdyJZT01A6tZJqGADNV0/znYX1EpP2vk9dX7ZC2yDb7rP1l5QQQ1Lo608AIZe+rOk8FEewNb6YVrnK72bZd70cJWGQ9h2xw2vOHi1ZOQQtnU2Z9CHWMiHeanmicbk2sDWTasLWGTzuE5Zg7+3YQUDFKKoYQGOYWZrF83axw07Nd4JP0+i8dBFYDPz+o11VvNvejCRQ9j2xw2vOPBwH/axmXDgY7b7lLEAqI7OMp1r6sVyUwOjH9GBqcQg/KbQlr2d2cyyWSEbxnWnFtwUN/QusGEwQK25sFG43yc4hG133PDyHg93LfaxIVwAMElk6UE9G6YMeSI2LlLVAhDVhigKqEWFowOiYY4V9gdT5rnqcA8U2OoIVTNhYxLnwpYZt+uNjYc772VDthAS9nLBpL47JKvkXMnEtJh51ZTQZtjEoqHn3RjsD6b48/hLgU0mpkEwYWMSh7Dtj9v9M+dXp+bgXFG4a7GbzcZzJdhVMhgRCBlvSnktBISaDq4JbYaNNOWk1YT9EVPFbQlsTUK7i9/O/8TDPYFqf9x+u4ft9TWCg9x5NxudMwRp/bvX8aaGKLcaKaXRRXMULFtMU01sA9YJ0txiiwfTJ7b17vOtPn1Oy72D1HbcUCcXNlcc3LXYzSa22UR9L+a7g62J2aaWZJYtrKQcm2RkNBJCAr459AFt9nz+5NSScAhbTtyuX19X4M672UyxytZ0vRlRYJMJtiLJpkeucKri2RTDNnKl+aFz2l6Vho2Fc2HLjNv5661eYzk8CNrJplfYbAcy/rtjUxlsJS7o0mxNJpvih15TNgs2hA0Vubmw5cXt6thYuPN+topna4GmXdHvTtmG/8mmSbbZM9J+tnDNsWvo/I7efQFaJOfClhm3r6EiOLzikM+Ge0dmaAU6q2wVz9bVcTXF97KpOi7BD30/29MXV5EbwpYbt3/f3ni48xFsLZ6hfCcbWqSwSOaw8d5tdBdh5yKJsPmiiUPY+Pp51e3NVRruUhzAZqMbFE0mW48LXFLBNIMNN+XiMsl7K/z+arAhbAk4hG2lzhtx83BvMdzpCDYVXRy0eWz49yp326nMYFs7GNqNofepC4AyChuTOIQtN25wA9wrCVsum4wyIjPZ6s31TGSwdbgUpzVEogPYom3Gh8DTR6DFcLhFnx23ZOJOR7DFFzh2zGQr8FCBoZEZbMI1q50Lr1myqeSzDYTt40ceDs/DMuP2/Pz2HOQQOYTtWLYqm61ai5tEcz9bABC72NS4ZDOJIVj6X/J/WRYNW37cnl0hcVOdjmOT5JDMYENOmzSNSDYbsclWs0986PnLkqET1JoE/r1D4+AQtvy43Ysk7lIcwzYsD2Zb5rMVKqaxUk9UXarpdr3BVgyxm+h7G99qJUMnS2KDp0NYI1k4hC0/brPbY+ROB7E106RArdRZbHisUyEaymCp6knT352Rm2y2JALW9WQ09JuU0YQN638bxQ9qMRwJW3bcKNylOIQtnAWUDa/XNJlscBuH9oZj68EguQiybIVrVr5ZbbDBzQz1jUi0fh9lOBD80FU8dOW6xr/z5BllQdg4ORK2zLi9vFC302FsNryzNh/VWWy4PqMFZRk3h2KVDUGipeDJDr0ln+ktYSPFhC0/bi8vS7lLcRhbIUryqmouG70vjbfvuGbpmywb+16sFCGHqDYaesMcP2AjhbAdEzfHBrhf9oYNZ+M2cbFaRm9qS+tp+tnI2M1N2XIpqTRceqJeqPKh2eICrN8Ys+1KikaHLjy2Btt92Uf/v/buYEdBGIrC8DGD7QS1KKCDNqYLM+w6E9//5Vy0phu4hnh23m/LAsifYwybIsvaMCWPjTO3McvhHMjqnTV7u9mCYrux1hhrv8WLS2+2WtuD2dtdPfXo6/LoJVu+3Zc5TL1aH6alsXHmlqulcB4CVbKJXJhxwgJXeW6xhKOMTbMhzGiwQCXPLcY4Zh4Mmu0ojI03t/gs58Cg2dAyDlOrBrFbTN3i2INDszUhEI6b6V78TCa+AodmQyecgMft5juwaDY0PeMU7G4Qu7G3ptkA14biWKHg/S/xDlyaDXCnVK5370zifJmZ3HA5Qy34DLvCp1BKKaUeKLeM0Rfa0ewAAAAASUVORK5CYII=" alt="">
+    <div class="para900"><p id="paraa900">We make registering, hosting, and managing domains for yourself or others easy and affordable, because the internet needs people.</p> <br>
+    <br>  <a id="paraa900" href=""><b>About Namecheap</b></a> <br><a id="paraa900" href=""><b>Read our blog</b></a></div>
+    <br><hr> <br>
+ <h4 id="teri">Join Our Newsletter & Marketing Communication</h4>
+ <p id="paraa900">We'll send you news and offers.</p> <br>
+ <input type="text"  placeholder="&nbsp; &nbsp;you@yours.com" id="youou"><button id="joinn" >Join</button>
+</div>
+<br>
+<div class="iconn">
+  <div class="twitter"><i class="fa-brands fa-twitter" style="color: #ffffff;"></i></div>
+  <div class="facebook"><i class="fa-brands fa-facebook-f" style="color: #ffffff;"></i></div>
+  <div class="insta"><i class="fa-brands fa-instagram" style="color: #ffffff;"></i></div>
+  <div class="pin"><i class="fa-brands fa-pinterest-p" style="color: #ffffff;"></i></div>
+</div>
+  </div>
+      <div class="div901">
+        <div class="divdom">
+          <b id="domm">Domains</b>
+          <ul>
+            <li><a id="feet" href="">Domain Name Search</a></li>
+            <li><a id="feet" href="">Domain Transfer</a></li>
+            <li><a id="feet" href="">New TLDs</a></li>
+            <li><a id="feet" href="">Handshake Domains</a></li>
+            <li><a id="feet" href="">Personal Domains</a></li>
+            <li><a id="feet" href="">Namecheap Market</a></li>
+            <li><a id="feet" href="">Whois Lookup</a></li>
+            <li><a id="feet" href="">PremiumDNS</a></li>
+            <li><a id="feet" href="">FreeDNS</a></li>
+          </ul>
+        </div>
+
+        <div class="divsec">
+          <b id="secc">Security</b>
+          <ul>
+            <li><a id="feet" href="">Domain Privacy</a></li>
+            <li><a id="feet" href="">website Security</a></li>
+            <li><a id="feet" href="">Fix Hacked Website</a></li>
+            <li><a id="feet" href="">Domain Vault </a></li>
+            <li><a id="feet" href="">PremiumDNS</a></li>
+            <li><a id="feet" href="">CDN</a></li>
+            <li><a id="feet" href="">FastVPN</a></li>
+            <li><a id="feet" href="">2FA</a></li>
+            <li><a id="feet" href="">PublicDNS</a></li>
+          </ul>
+        </div>
+        
+        <div class="divhelp">
+          <b id="guru">Guru Guides</b>
+          <b id="hel">Help Center</b>
+          <ul>
+            <li><a id="feet" href="">Status Update</a></li>
+            <li><a id="feet" href="">website Security</a></li>
+            <li><a id="feet" href="">Submit Ticket</a></li>
+            <li><a id="feet" href="">Domain Vault </a></li>
+            <li><a id="feet" href="">Knowledgebase</a></li>
+            <li><a id="feet" href="">CDN</a></li>
+            <li><a id="feet" href="">FastVPN</a></li>
+            <li><a id="feet" href="">2FA</a></li>
+            <li><a id="feet" href="">PublicDNS</a></li>
+          </ul>
+        </div>
+
+        <div class="divhost">
+          <b id="hostt">Hosting</b>
+          <ul>
+            <li><a id="feet" href="">Domain Privacy</a></li>
+            <li><a id="feet" href="">website Security</a></li>
+            <li><a id="feet" href="">Fix Hacked Website</a></li>
+            <li><a id="feet" href="">Domain Vault </a></li>
+            <li><a id="feet" href="">PremiumDNS</a></li>
+            <li><a id="feet" href="">CDN</a></li>
+            <li><a id="feet" href="">FastVPN</a></li>
+          </ul>
+        </div>
+       
+        <div class="divtrans">
+          <b id="transs">Transfer To Us</b>
+          <ul>
+            <li><a id="feet" href="">Domain Privacy</a></li>
+            <li><a id="feet" href="">website Security</a></li>
+            <li><a id="feet" href="">Fix Hacked Website</a></li>
+            <li><a id="feet" href="">Domain Vault </a></li>
+            <li><a id="feet" href="">PremiumDNS</a></li>
+            <li><a id="feet" href="">CDN</a></li>
+            <li><a id="feet" href="">FastVPN</a></li>
+          </ul>
+        </div>
+        <div class="divmar">
+          <b id="marr">Marketing tools</b>
+          <ul>
+            <li><a id="feet" href="">Domain Privacy</a></li>
+            <li><a id="feet" href="">website Security</a></li>
+            <li><a id="feet" href="">Fix Hacked Website</a></li>
+            <li><a id="feet" href="">Domain Vault </a></li>
+            <li><a id="feet" href="">PremiumDNS</a></li>
+            <li><a id="feet" href="">CDN</a></li>
+            <li><a id="feet" href="">FastVPN</a></li>
+            <li><a id="feet" href="">Domain Privacy</a></li>
+            <li><a id="feet" href="">website Security</a></li>
+            <li><a id="feet" href="">Fix Hacked Website</a></li>
+            <li><a id="feet" href="">Domain Vault </a></li>
+            <li><a id="feet" href="">PremiumDNS</a></li>
+            <li><a id="feet" href="">CDN</a></li>
+            <li><a id="feet" href="">FastVPN</a></li>
+          </ul>
+        </div>
+        <div class="divword">
+          <b id="wordd">WordPress</b>
+          <ul>
+            <li><a id="feet" href="">Domain Privacy</a></li>
+            <li><a id="feet" href="">website Security</a></li>
+            <li><a id="feet" href="">Fix Hacked Website</a></li>
+
+          </ul>
+        </div>
+
+      </div>
+    </div>
+    
+  </div>
+  </div> 
+  </body>
+</html>
